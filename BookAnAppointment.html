@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book An Appointment</title>
+    <link rel="stylesheet" href="Styles/BookAnAppointment.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+</head>
+<body>
+
+
+    <div class="conatiner">
+
+        <header>
+            <div class="header-log">
+             <img src="Images/logo.avif" alt="" >
+             <h1 ><a href="#Home" >Healingpath</a></h1>
+            </div>
+            <nav>
+             <ul>
+                 <li><a href="#Home">Home</a></li>
+                 <li style="margin-top: 20px;font-size: 20px;">Pages
+                  <ul class="dropdown">
+                     <div class="dropdown-list">
+                         <div class="dropdown-list1">
+                             <li><a href="#Home">Home</a></li>
+                             <li><a href="#About">About</a></li>
+                             <li><a href="#News & Resources">News & Resources</a></li>
+                             <li><a href="#Team">Team</a></li>
+                             <li><a href="#Price Tables">Price Tables</a></li>
+                             <li><a href="#Reviews">Reviews</a></li>
+                         </div>
+                         <div class="dropdown-list1">
+                             <li><a href="#Services">Services</a></li>
+                             <li><a href="#Contact">Contact</a></li>
+                             <li><a href="#Licenses">Licenses</a></li>
+                             <li><a href="#changelog">changelog</a></li>
+                             <li><a href="#sign-up">sign-up</a></li>
+                         </div>
+                     </div>
+                     
+                    
+                      
+                  </ul>
+                  </li>
+                 <li><a href="#About">About</a></li>
+                 <li><a href="#Cart">Cart</a></li>
+      
+              </ul>
+            </nav>
+             <button><a href="BookAnAppointment.html">Book an appointment</a></button>
+         </header>
+     
+     
+     
+         <div class="book-text-div">
+             <h3>  Get in touch with us.</h3>
+             <h1>Connect with our team today.</h1>
+             <div class="form-with-img-div">
+     
+     
+                 <div class="book-form">
+                     <form id="appointmentForm">
+                         <input type="name" name="name" id="name" placeholder="Full Name" required>
+                         <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+                         <input type="text" name="phoneNumber" id="phoneNumber" placeholder="Phone Number" required>
+                         <input type="text" name="companyName" id="companyName"  placeholder="Company Name" required>
+                         <input type="text" name="website" id="website" placeholder="Website" required>
+                         <textarea name="message" id="message"  placeholder="Please type your message here"></textarea>
+                         <input type="submit" name="submit" id="send-message" value="Send Message">
+                     </form>
+                     <p id="confirmationMessage" style="display:none; margin-top: 30px; border-radius: 10px; font-size: 20px; height: 50px;text-align: center;padding: 20px; background-color: rgba(255, 255, 255, 0.445);"></p>
+                     
+                     <script src="BookAnAppointment.js"></script>
+                 </div>
+     
+                 <div class="form-img">
+     
+                     <div class="form-images-div">
+                         <img src="Images/book-app-img1.jpg" alt="">
+                         <img style="margin-left: 20px;" src="Images/book-app-img2.jpg" alt="">
+                     </div>
+                    
+                     <div class="images-text-div">
+                         <h1>More details</h1>
+                         <p>
+                             Unveiling Innovation, A Close-Up on Theraflow's Creative<br>
+                              Process. Exploring the Creative Landscape of Theraflow.
+                         </p>
+                     </div>
+     
+                     <div class="book-form-address">
+                         <p>Contact Information</p>
+                         <div class="book-address">
+                             <ion-icon name="location-outline"></ion-icon>
+                             <p>
+                                 Office Address<br>3248 Main Street Arlington, CA,34997
+     
+                             </p>
+                         </div>
+     
+     
+                         <div class="book-address">
+                             <ion-icon name="mail-open-outline"></ion-icon>
+                             <p>
+                                 Email us<br>contact@example.com
+     
+                             </p>
+                         </div>
+     
+                     </div>
+     
+     
+                 </div>
+     
+             </div>
+         </div>
+    </div>
+   
+    
+    <div class="FAQS-div">
+        <h1>FAQS</h1>
+        <div class="FAQS-text-div">
+            <h1>Frequently Asked <br>Questions</h1>
+            <button><a href="#about">Learn more</a></button>
+        </div>
+    </div>
+
+    <!--faq section start-->
+    <div class="faq">
+           
+        
+        <!-- <h1 style="color:rgb(59, 59, 58);font-size: 25px; margin-left: 60px; margin-top: 50px;">FREQUENTLY ASKED QUESTIONS</h1> -->
+        <div class="faqs">
+        <div class="faq1">
+            <div class="FAQ">
+                <div class="FAQ-heading1">
+                    <h1>How do I set up my payment app?
+                        <i class="fa-solid fa-plus icon"></i>
+                    </h1>
+                    <p style="display: none; margin-left: 30px; font-size: 20px; margin-top: 20px;" class="FAQtext">Our unwavering goal is to surpass expectations and set new standards <br>of excellence in every project we embark upon.</p>
+                </div>
+                <div class="FAQ-heading2">
+                    <h1>Is my data secure?
+                        <i class="fa-solid fa-plus icon"></i>
+                    </h1>
+                    <p style="display: none;margin-left: 30px; font-size: 20px; margin-top: 20px;" class="FAQtext">In order to preserve a peaceful and comfortable environment, <br>we have
+                         implemented a pet policy that prohibits normal pets from entering the premises.</p>
+                </div>
+                <div class="FAQ-heading3">
+                    <h1>What payments can I make?
+                        <i class="fa-solid fa-plus icon"></i>
+                    </h1>
+                    <p style="display: none;margin-left: 30px; font-size: 20px; margin-top: 20px;" class="FAQtext">The check-in and check-out times are both at [time]. Early or <br> late check-in is 
+                        possible upon request and subject to availability.</p>
+                </div>
+                <div class="FAQ-heading4">
+                    <h1>How do I manage payment methods?
+                        <i class="fa-solid fa-plus icon"></i>
+                    </h1>
+                    <p style="display: none;margin-left: 30px; font-size: 20px; margin-top: 20px;" class="FAQtext">Dedicated concierge service to assist you in organising<br> various excursions and
+                         activities to see the area sites.</p>
+                </div>
+            </div>
+        
+    </div>
+     
+    
+    <div class="faq2">
+        <div class="FAQ">
+            <div class="FAQ-heading1">
+                <h1>How do I set up my payment app?
+                    <i class="fa-solid fa-plus icon"></i>
+                </h1>
+                <p style="display: none;margin-left: 30px; font-size: 20px; margin-top: 20px;" class="FAQtext">Our unwavering goal is to surpass expectations and set <br> new standards of excellence in every project we embark upon.</p>
+            </div>
+            <div class="FAQ-heading2">
+                <h1>Is my data secure?
+                    <i class="fa-solid fa-plus icon"></i>
+                </h1>
+                <p style="display: none;margin-left: 30px; font-size: 20px; margin-top: 20px;" class="FAQtext">In order to preserve a peaceful and comfortable environment, we have<br>
+                     implemented a pet policy that prohibits normal pets from entering the premises.</p>
+            </div>
+            <div class="FAQ-heading3">
+                <h1>What payments can I make?
+                    <i class="fa-solid fa-plus icon"></i>
+                </h1>
+                <p style="display: none;margin-left: 30px; font-size: 20px; margin-top: 20px;" class="FAQtext">The check-in and check-out times are both at [time]. Early or<br> late check-in is 
+                    possible upon request and subject to availability.</p>
+            </div>
+            <div class="FAQ-heading4">
+                <h1>How do I manage payment methods?
+                    <i class="fa-solid fa-plus icon"></i>
+                </h1>
+                <p style="display: none;margin-left: 30px; font-size: 20px; margin-top: 20px;" class="FAQtext">Dedicated concierge service to assist you in organising various<br> excursions and
+                     activities to see the area sites.</p>
+            </div>
+        </div>
+    
+</div>
+</div>
+    <!--faq section ends-->
+
+
+    <script>
+        var icons = document.querySelectorAll(".icon");
+        var texts = document.querySelectorAll(".FAQtext");
+     
+        icons.forEach(function(icon, index) {
+            icon.addEventListener("click", function() {
+                if (texts[index].style.display === "none") {
+                    texts[index].style.display = "block";
+                    icon.classList.remove("fa-plus");
+                    icon.classList.add("fa-minus");
+                } else {
+                    texts[index].style.display = "none";
+                    icon.classList.remove("fa-minus");
+                    icon.classList.add("fa-plus");
+                }
+            });
+        });
+       </script>
+
+
+
+
+
+
+  <footer>
+
+    <div class="footer-form">
+        <div class="footer-form-text">
+            <div class="header-log">
+                <img src="Images/logo.avif" alt="" >
+                <h1 >Healingpath</h1>
+            </div>
+            <p>
+                Looking for an exceptional website to elevate your startup? Explore Digipro, the <br>
+                ultimate Webflow template specifically designed for the dynamic finance,<br>
+                 technology, and corporate sectors.
+            </p>
+            <div class="footer-social-icons">
+                <ion-icon name="logo-facebook"></ion-icon>
+                <ion-icon style="margin-left: 10px;" name="logo-linkedin"></ion-icon>
+                <ion-icon style="margin-left: 10px;" name="logo-instagram"></ion-icon>
+                <ion-icon style="margin-left: 10px;" name="logo-twitter"></ion-icon>
+            </div>
+
+        </div>
+
+        <div class="footer-subscribe-form">
+            <h2>Join our newsletter for expert advice and tools.</h2>
+            <form id="subscriptionForm" >
+                <input type="email" name="email" id="email" placeholder="Your email Address" required>
+                <input type="submit" value="Subscribe" id="Subscribe">
+            
+            </form>
+            <p id="message" style="display:none; margin-top: 30px; border-radius: 10px; font-size: 20px; height: 50px;text-align: center;padding: 20px; background-color: rgba(255, 255, 255, 0.445);"></p>
+            <script src="SubscribeFormScript.js"></script>
+        </div>
+    </div>
+    <hr style="margin-right: 50px;margin-left: 50px; margin-top: 50px;">
+
+    <div class="Footer-list">
+        <div class="footer-list1">
+            <h3>Navigation</h3>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Team">Team</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Pricing">Pricing</a></li>
+                <li><a href="#Articles">Articles</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-list1">
+            <h3>CMS Pages</h3>
+            <ul>
+                <li><a href="#Blog Post Page">Blog Post Page</a></li>
+                <li><a href="#Blog Categories">Blog Categories</a></li>
+                <li><a href="#Packages Page">Packages Page</a></li>
+                <li><a href="#Categories Packages">Categories Packages</a></li>
+                <li><a href="#Services Page">Services Page</a></li>
+                <li><a href="#Team Page">Team Page</a></li>
+                
+            </ul>
+        </div>
+        <div class="footer-list1">
+            <h3>Essential Pages</h3>
+            <ul>
+                <li><a href="#Style-Guide">Style-Guide</a></li>
+                <li><a href="#Licenses">Licensest</a></li>
+                <li><a href="#Changelog">Changelog</a></li>
+                <li><a href="#404 Page">404 Page</a></li>
+                <li><a href="#Password Page">Password Page</a></li>
+                
+            </ul>
+        </div>
+        <div class="footer-list1" style="margin-right: 50px;">
+            <h3>Account</h3>
+            <ul>
+                <li><a href="#Sign up">Sign up</a></li>
+                <li><a href="#Log in">Log in</a></li>
+                <li><a href="#Reset password">Reset password</a></li>
+                <li><a href="#User account">User account</a></li>
+                
+            </ul>
+        </div>
+    </div>
+
+  </footer>
+
+
+</body>
+</html>
